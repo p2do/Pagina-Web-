@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/pagina8.css">
+    <title>Configurador SystemTech</title>
+</head>
+<body>
+    <header>
+        <img src="imagenAg/logoSystemtech.jpg" alt="Logo" width="140" height="90">
+        <h1>SystemTech</h1>
+        <p>¡¡Bienvenido a nuestra tienda!!</p>
+        <em>25 años de confianza nos avalan. Cuando la tecnología falla, nosotros no.</em>
+        <hr>
+        <nav>
+           
+            &emsp; <a href="presentacion.html">Presentación</a>&emsp;
+            <a href="index.html">Inicio</a>&emsp;
+            <a href="pagina1.html">¿Dónde estamos?</a>&emsp;
+            <a href="pagina2.html">¿Quiénes somos?</a>&emsp;
+            <a href="pagina3.html">Tienda</a>&emsp;
+            <a href="pagina4.html">Comparativa de producto</a>&emsp;
+            <a href="pagina5.html">Formulario de contacto</a>&emsp;
+            <a href="pagina6.html">Formulario de Presupuesto</a>&emsp;
+            <a href="pagina7.html">Preguntas Frecuentes</a>&emsp;
+            <a href="pagina8.html">Configurador</a>
+           
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Configurador SystemTech</h3>
+            <br> <i>¡Crea tu propio PC customizado a tu gusto!</i><br><br>
+            <img src="Fotos/pc1.jpg" alt="Ordenador" width="450" height="500">
+            <form action="presupuestoPC.php" method="get">
+            <article>
+                <br>
+            <fieldset><legend><img src="Fotos/CPU.png" alt="PROCESADOR" width="25" height="25">PROCESADOR</legend>
+                <i>Es el cerebro del sistema, justamente procesa todo lo que ocurre en el PC y ejecuta todas las acciones que existen.</i><br><br>
+                <select name="PROCESADOR">
+                <option value="1">+ Seleccionar componente</option>
+                <option value="AMD_Ryzen9_7950X">AMD Ryzen 9 7950X 4.5 GHz</option>
+                <option value="AMDRyzen7_7800X3D">AMD Ryzen 7 7800X3D 4.2 GHz/5 GHz</option>
+                <option value="AMDRyzen5_7600X">AMD Ryzen 5 7600X 4.7 GHz</option>
+                <option value="AMDRyzen5800X">AMD Ryzen 5800X 3.8GHz</option>
+                <option value="Inteli5">Intel Core i5-14400F 2.5/4.7GHz</option>
+                <option value="Inteli7">Intel Core i7-14700KF 3.4/5.6GHz</option>
+                <option value="Inteli9">Intel Core i9-14900K 3.2/6GHz</option>
+                <option value="Inteli3">Intel Core i3-12100 3.3 GHz</option>
+                </select>
+            </fieldset>
+        </article>
+        <br>
+        <article>
+            <fieldset><legend><img src="Fotos/RAM.png" alt="ram" width="25" height="25">RAM</legend>
+                <i>Espacio de trabajo temporal donde tu ordenador mantiene activos los programas en uso.</i><br><br>
+            <select name="RAM">
+                <option value="2">+ Seleccionar componente</option>
+                <option value="Forgeon">Forgeon Cyclone PRO RGB DDR5 6000 MHz 32GB</option>
+                <option value="CorsairDDR5">Corsair Vengeance RGB DDR5 6000MHz PC5-48000 16GB</option>
+                <option value="CorsairDDR4">Corsair Vengeance LPX DDR4 3200 PC4-25600 16GB</option>
+                <option value="Crucial">Crucial SO-DIMM DDR4 3200MHz PC4-25600 16GB</option>
+                <option value="V7">V7 V7106004GBD DDR3 1333 PC3-10600 4GB</option>
+            </select>
+            </fieldset>
+        </article>
+        <br>
+        <article>
+            <fieldset><legend><img src="Fotos/TarjetaGrafica.png" alt="GRAFICA" width="25" height="25">TARJETA GRÁFICA</legend>
+                <i>Se encarga de procesar los datos provenientes del procesador y transformarlo en información que representa el dispositivo de salida: monitor, televisor.</i><br><br>
+                <select name="TarjetaGrafica">
+                    <option value="3">+ Seleccionar componente</option>
+                    <option value="ASUS4060">ASUS Dual GeForce RTX 4060 EVO OC Edition 8GB</option>
+                    <option value="AsRock6600">AsRock Challenger D AMD Radeon RX 6600 8GB </option>
+                    <option value="Zotac4080SUPER">Zotac Gaming GeForce RTX 4080 SUPER 16GB</option>
+                    <option value="Gigabyte7800">Gigabyte AMD Radeon RX 7800 XT 16GB</option>
+                    <option value="MSI3050">MSI GeForce RTX 3050 VENTUS 2X E OC 6GB</option>
+                </select>
+            </fieldset>
+        </article>
+        <br>
+        <article>
+            <fieldset><legend><img src="Fotos/FuenteAlimentación.png" alt="ALIMENTACIÓN" width="25" height="25">FUENTE ALIMENTACIÓN</legend>
+                <i>Se utiliza para convertir la corriente de la red eléctrica en una forma de energía para que el ordenador pueda utilizarlo como fuente de energía.</i><br><br>
+                <select name="ALIMENTACIÓN">
+                    <option value="4">+ Seleccionar componente</option>
+                    <option value="Forgeon850W">Forgeon Bolt PSU 850W 80+ Gold Full Modular</option>
+                    <option value="Tempest750W">Tempest PSU 750W </option>
+                    <option value="Forgeon1000W">Forgeon Bolt PSU 1000W 80+ Gold Full Modular</option>
+                    <option value="Tempest750W">Tempest PSU X 750W 80+ Bronze Modular </option>
+                    <option value="Corsair1000W">Corsair HXi Series HX1000i 1000W 80 Plus Platinum Modular</option>
+                </select>
+            </fieldset>
+        </article>
+        <br>
+        <article>
+            <fieldset><legend><img src="Fotos/PlacaBase.png" alt="PlacaBase" width="25" height="25">PLACA BASE</legend>
+                <i>En esta se conecta todos los componentes internos del ordenador.</i><br><br>
+                <select name="PlacaBase">
+                    <option value="5">+ Seleccionar componente</option>
+                    <option value="GigabyteB760M">Gigabyte B760M D3HP DDR4</option>
+                    <option value="ASUSB760">ASUS PRIME B760-PLUS</option>
+                    <option value="ASUSX670E">ASUS PRIME X670E-PRO WIFI</option>
+                    <option value="MSIB650">MSI MAG B650 TOMAHAWK WIFI</option>
+                </select>
+            </fieldset>
+        </article>
+        <br>
+        <article>
+            <fieldset><legend><img src="Fotos/DisipadorCPU.png" alt="disipador" width="25" height="25">DISIPADOR CPU</legend>
+                <i>Es un elemento cuya misión es extraer el calor que genera el procesador.</i><br><br>
+                <select name="disipador">
+                    <option value="6">+ Seleccionar componente</option>
+                    <option value="MARSMCPUXU9">Mars Gaming Mcpu-xu9 Disipador Cpu Doble Torre Tdp 400w 2x Ventiladores Fdb 9 Heatpip</option>
+                    <option value="MARSMCPUBK">Mars Gaming MCPUBK Disipador CPU TDP 160W</option>
+                    <option value="DEEPCOOLAS500">DeepCool AS500 Plus Disipador</option>
+                    <option value="NOXHUMMER">Nox Hummer H-903 Ventilador CPU 120mm</option>
+                </select>
+            </fieldset>
+        </article>
+        <br>
+        <article>
+            <fieldset><legend><img src="Fotos/Almacenamiento.png" alt="Almacenamiento" width="25" height="25">ALMACENAMIENTO</legend>
+                <i>Son los dispositivos encargados en almacenar los datos no volátiles.</i><br><br>
+                <select name="Almacenamiento">
+                    <option value="7">+ Seleccionar componente</option>
+                    <option value="Kingston1TB">Kingston NV2 1TB Disco SSD 3500MB/S NVMe PCIe 4.0 M.2 Gen4</option>
+                    <option value="CRUCIAL1TB">Crucial P3 1TB Disco SSD 3500MB/S NVMe PCIe 3.0 M.2</option>
+                    <option value="SamsungSATA3">Samsung 870 QVO SSD 8TB SATA3</option>
+                    <option value="CorsairM.2">Corsair MP600 CORE XT 2 TB Gen4 PCIe x4 NVMe M.2</option>
+                </select>
+            </fieldset>
+        </article>
+        <br>
+        <article>
+            <fieldset><legend><img src="Fotos/Caja.png" alt="Caja" width="25" height="25">CAJA</legend>
+                <i>Es el recipiente que contiene todos los elementos del PC y los protege de las condiciones externas.</i><br><br>
+                <select name="Caja">
+                    <option value="8">+ Seleccionar componente</option>
+                    <option value="ForgeonTORRE">Forgeon Arcanite ARGB Mesh Torre ATX</option>
+                    <option value="TEMPESTTORRE">Tempest Fort ARGB ATX Cristal Templado USB 3.0</option>
+                    <option value="NFORTECTORRE">Nfortec Pulsar ARGB Mid Tower ATX Cristal Templado USB-C</option>
+                    <option value="NOXHUMMER">Nox Hummer TGX Rainbow RGB 3.0 USB</option>
+                </select>
+            </fieldset>
+        </article>
+        <br><br><br>
+        <article>
+            <h3>EXTRAS</h3><br>
+            <i>Se recomienda a personas inexpertas adquirir el sistema operativo, tarjeta de sonido, conectividad</i><br><br>
+            <fieldset>
+            <br>
+                <article>
+                    <fieldset><legend><img src="Fotos/SO.png" alt="SistemaOperativo" width="25" height="25">SISTEMA OPERATIVO</legend>
+                        <select name="SistemaOperativo">
+                            <option value="9">+ Seleccionar componente</option>
+                            <option value="Microsoft11home">Microsoft Windows 11 Home 64 bits</option>
+                            <option value="Microsoft11pro">Microsoft Windows 11 Pro 64 Bits</option>
+                            <option value="Microsoft10pro">Microsoft Windows 10 Pro 64 Bits</option>
+                            <option value="DellEssentials">Dell Windows Server 2022 Essentials Rok</option>
+                        </select>
+                    </fieldset>
+                </article>
+                <br>
+                <article>
+                    <fieldset><legend><img src="Fotos/TarjetaSonido.png" alt="TarjetaSonido" width="25" height="25">TARJETA DE SONIDO</legend>
+                        <i>Es un componente que convierte las señales digitales en señal de audio analógicas que puede emitidas por altavoz.</i><br><br>
+                        <select name="TarjetaSonido">
+                        <option value="10">+ Seleccionar componente</option>
+                        <option value="Creativesound">Creative Sound Blaster Audigy RX 7.1</option>
+                        <option value="Approx5.1">Approx APPUSB51HUB USB 3.0 Sonido 5.1</option>
+                        <option value="Creativesoundplus">Creative Sound BlasterX AE-5 Plus Hi-Res Gaming</option>
+                        <option value="asusXonar">Asus Xonar SE 5.1 PC1-E</option>
+                        </select>
+                    </fieldset>
+                </article>
+                <br>
+                <article>
+                    <fieldset><legend><img src="Fotos/VentilaciónAdicional.png" alt="VentilaciónAdicional" width="25" height="25">VENTILACIÓN ADICIONAL</legend>
+                        <i>Es un elemento cuya misión es extraer el calor que genera el procesador.</i><br><br>
+                        <select name="VentilaciónAdicional">
+                        <option value="11">+ Seleccionar componente</option>
+                        <option value="Lian1">Lian Li Uni Fan AL 120 V2 ARGB 120mm</option>
+                        <option value="Lian2">Lian Li Uni Fan SL LCD ARGB Reverse Blade 120mm Triple Pack Wireless</option>
+                        <option value="GamdiasAeolus">Gamdias Aeolus P2-1203 Triple Pack</option>
+                        <option value="CorsairWhiteRGB">Corsair iCUE SP120 White RGB ELITE LED AirGuide Lighting Node CORE</option>
+                        </select>
+                    </fieldset>
+                </article>
+                <br>
+                <article>
+                    <fieldset><legend><img src="Fotos/Almacenamiento.png" alt="disco2" width="25" height="25">DISCO DURO SECUNDARIO</legend>
+                        <i>Son los dispositivos encargados en almacenar los datos no volátiles.</i><br><br>
+                        <select name="disco2">
+                        <option value="12">+ Seleccionar componente</option>
+                        <option value="Kingston1TBNV3">Kingston NV3 1TB PCIe x4 NVMe</option>
+                        <option value="Western2TB">Western Digital Black SN770 2TB NVMe PCIe Gen4</option>
+                        <option value="Samsung4TB">Samsung 870 QVO 4TB SATA3</option>
+                        <option value="Seagate2TB">Seagate Barracuda Compute HDD 2TB SATA3</option>
+                        </select>
+                    </fieldset>
+                </article>
+                <br>
+                <article>
+                    <fieldset><legend><img src="Fotos/Conectividad.png" alt="conectividad" width="25" height="25">CONECTIVIDAD</legend>
+                        <i>Permite conectar el ordenador a una red inalámbrica</i><br><br>
+                        <select name="conectividad">
+                        <option value="13">+ Seleccionar componente</option>
+                        <option value="AsusUSBNano">Asus USB-N10 Nano Wi-Fi</option>
+                        <option value="AsusAXE400">Asus AXE5400 WiFi 6E Bluetooth</option>
+                        <option value="TPLINKARCHER">TP-Link Archer T2E PCI Express Wi-Fi AC600 MU-MIMO</option>
+                        <option value="StartechPCI-EX"> Startech Tarjeta PCI-Ex 4 Puertos USB 3.0 UASP</option>
+                        </select>
+                    </fieldset>
+                </article>
+                <br>
+                <article>
+                    <fieldset><legend><img src="Fotos/PastaTermica.png" alt="PastaTermica" width="25" height="25">COMPUESTOS TÉRMICOS</legend>
+                        <i>Pasta metalica que permite una transmisión de temperatura que la retira el disipador.</i><br><br>
+                        <select name="PastaTermica">
+                        <option value="14">+ Seleccionar componente</option>
+                        <option value="Noctua_NT-H1_Edition"> Noctua NT-H1 AM5 Edition 3.5g</option>
+                        <option value="Artic_MX-6">Artic MX-6 4gr</option>
+                        <option value="Noctua_NT-H1">Noctua NT-H1 10g</option>
+                        </select>
+                    </fieldset>
+                </article>
+                <br>
+                <article>
+                    <fieldset><legend><img src="Fotos/lector.png" alt="lector" width="25" height="25">LECTORES</legend>
+                        <i>Permite acceder a la información de un CD</i><br><br>
+                        <select name="lector">
+                        <option value="15">+ Seleccionar componente</option>
+                        <option value="AsusSDRW">Asus SDRW-08D2S-U Black</option>
+                        <option value="LGDVD">LG GH24NSD5 DVD-RW </option>
+                        <option value="ASUSZENDRIVE">Asus ZenDrive O8U7M-U</option>
+                        </select>
+                    </fieldset>
+                </article>
+            </fieldset>
+        </article>
+        <article>
+            <br>
+            <h3>MONTAJE</h3>
+            <i>Si desea que le realicemos el montaje de su PC personalizado marque la casilla.</i><br><br>
+                <fieldset>
+                    <input type="checkbox"> <img src="Fotos/Montaje.png " alt="montaje" width="25" height="25">&emsp;Añadir montaje
+                </fieldset>
+        </article>
+        <br>
+        <input type="submit" name="enviar"></input>
+        <input type="reset" name="borrar"></input>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <a href="https://www.whatsapp.com/?lang=es_LA" target="_self">
+                <img src="Fotos/what.png" height="25px"></a>
+                <h4>Teléfono</h4>
+                <p>+34 544 35 66 34</p>
+            </div>
+            <div class="content-foo">
+                <a href="https://www.instagram.com/" target="_self">
+                <img src="imagenAg/iconoInstagram.png" alt="Enlace a Instagram" width="30" height="30"></a>
+                <h4>Instagram</h4>
+                <p>SystemTech</p>
+            </div>
+            <div class="content-foo">
+                <a href="https://x.com/?lang=es&mx=2" target="_self">
+                <img src="imagenAg/iconoX.png" alt="Enlace a X" width="30" height="30"></a>
+                <h4>X</h4>
+                <p>SystemTech</p>
+            </div>
+            <div class="content-foo">
+                <img src="Fotos/gmail.png">
+                <h4>Gmail</h4>
+                <p>SystemTech@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <a href="pagina1.html" target="_self">
+                    <img src="Fotos/ubi.png"> </a>
+                <h4>Ubicación</h4>
+                <p>C/Andarax Nº5</p>
+               
+            </div>
+            <div class="content-foo">
+                <a href="https://www.youtube.com/?gl=ES&hl=es&app=desktop" target="_self">
+                <img src="imagenAg/iconoYoutube.png" alt="Enlace a Youtube" width="30" height="30"></a>
+                <h4>Youtube</h4>
+                <p>SystemTech </p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav{
+
+    border:2px solid black;
+    padding: 20px 0px 20px 0px;
+    background: linear-gradient(#c6d7ee, #9198e5);
+    text-align: center;
+    box-shadow: 0px 10px 30px rgb(132, 149, 243);
+   
+    
+    }
+    
+    nav > a{
+    
+    color: black;
+    font-weight: 300;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+    }
+
+    nav > a:hover{
+        color: #27575f;
+        text-decoration:underline ;
+        background-color: #fae5e5;
+        padding-top: 20px;
+        padding-bottom: 21px;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+       
+       
+      
+
+    }
+    footer{
+    
+    background: #749abd;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    
+    margin-top: 40px;
+    
+    }
+    
+    .contenedor-footer{
+    
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #000000;
+    
+    }
+    
+    .content-foo{
+    
+    text-align: center;
+    
+    }
+    
+    .content-foo img{
+    
+    position: relative;
+    top: 50px; /* ajustar los valores para mover la imagen */
+    left: -40px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: -10px;
+    border:2px solid #000000;
+    display: block;
+    }
+    
+    .content-foo h4{
+    
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid green;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+    }
+    
+    .content-foo p{
+    
+    color: rgb(0, 0, 0);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+    }
+
+    .imagen{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+
+    section fieldset{
+        background-color: rgb(237, 237, 238);
+        padding-bottom: 100px;
+        border:10px solid black;
+    }
+
+    section fieldset legend{
+        color: #000000;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 30px;
+        padding: 1px 20px 20px 1px;
+        border: 5px solid ;
+        background-color: rgb(219, 221, 245);
+    }
+
+    .nametags{
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        word-spacing: 4px;
+    }
+
+    #leyenda{
+        margin-top: 150px;
+        text-align: center;  
+    }
+    
+    ul li{
+        list-style-type: none;
+
+    }
+
+    #titulo{
+        box-sizing: border-box;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5em;
+        letter-spacing: 10px;
+        background-color: #749abd;
+        margin-left:100px ;
+        margin-right:100px ;
+    }
+
+    #fotoEmpresa{
+        text-align: center;
+        margin-top: 2%;
+
+
+        
+    }
+
+    em{
+        font-weight: bolder;
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+    
+    #eslogan{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 1.5em;
+        margin-bottom: 40px;
+    }

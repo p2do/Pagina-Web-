@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de presupuesto</title>
+    <link rel="stylesheet" type="text/css" href="CSS/pagina6.css">
+</head>
+<body>
+    <header>
+        <img src="imagenAg/logoSystemtech.jpg" alt="Logo" width="140" height="90">
+        <h1>SystemTech</h1>
+        <p>¡¡Bienvenido a nuestra tienda!!</p>
+        <em>25 años de confianza nos avalan. Cuando la tecnología falla, nosotros no.</em>
+        <hr>
+        <nav>
+           
+            &emsp; <a href="presentacion.html">Presentación</a>&emsp;
+            <a href="index.html">Inicio</a>&emsp;
+            <a href="pagina1.html">¿Dónde estamos?</a>&emsp;
+            <a href="pagina2.html">¿Quiénes somos?</a>&emsp;
+            <a href="pagina3.html">Tienda</a>&emsp;
+            <a href="pagina4.html">Comparativa de producto</a>&emsp;
+            <a href="pagina5.html">Formulario de contacto</a>&emsp;
+            <a href="pagina6.html">Formulario de Presupuesto</a>&emsp;
+            <a href="pagina7.html">Preguntas Frecuentes</a>&emsp;
+            <a href="pagina8.html">Configurador</a>
+           
+        </nav>
+    </header>
+    <main>
+     <section>
+            <h1>Formulario para Presupuesto</h1>
+      <form action="presupuesto.php" method="get">
+        <fieldset>
+            <legend><b>Articulos</b></legend>
+            <br>
+
+           Consola:
+            <select name="consola">
+                <option value="">Seleccione una consola</option>
+                <option value="PlayStation_5_Pro">PlayStation 5 Pro</option>
+                <option value="PlayStation_5_Slim">PlayStation 5 Slim</option>
+                <option value="Xbox_Series_X">Xbox Series X</option>
+            </select>
+            <br><br>
+
+            Monitor:
+            <select  name="monitor">
+                <option value="">Seleccione un monitor</option>
+                <option value="AOC_Gaming">AOC Gaming 27&quot; 180Hz</option>
+                <option value="A_Z-Edge_Gaming">Z Z-Edge Gaming 27&quot; 300Hz</option>
+            </select>
+            <br><br>
+
+            Teclado:
+            <select name="teclado">
+                <option value="">Seleccione un teclado</option>
+                <option value="Razer_V4_X">Razer BlackWidow V4 X</option>
+                <option value="Razer_v4_Pro">Razer BlackWidow V4 Pro</option>
+            </select>
+            <br><br>
+
+            Ratón:
+            <select name="ratón">
+                <option value="">Seleccione un ratón</option>
+                <option value="Logitech_G203_LIGHTSYNC">Logitech G203 LIGHTSYNC</option>
+                <option value="Logitech_G703_LIGHTSPEED">Logitech G703 LIGHTSPEED</option>
+            </select>
+            <br><br>
+
+            Auricular:
+            <select name="auricular">
+                <option value="">Seleccione un auricular</option>
+                <option value="Razer_Kraken_V3">Razer Kraken V3</option>
+                <option value="Logitech_G_Pro_X">Logitech G Pro X</option>
+            </select>
+            <br><br>
+
+            Teléfono:
+            <select name="teléfono">
+                <option value="">Seleccione un teléfono</option>
+                <option value="8gb">Iphone 16 Pro Max</option>
+                <option value="16gb">Iphone 16 Pro</option>
+                <option value="32gb">Iphone 16 Plus</option>
+                <option value="32gb">Iphone 16</option>
+                <option value="32gb">Iphone SE 3º generación</option>
+            </select>
+            <br><br>
+
+            Rango de precio (<i>en EUR</i>):
+            <br>
+            <br>
+           <i>0</i>&#8364;
+            <input type="range" name="rango_precio" min="0" max="2000" required>
+            <i>2000</i>&#8364;
+            <br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Personalización de producto</b></legend>
+            <br>
+            ¿Desea personalización de su producto?
+            <br>
+            <br>
+             Si<input type="radio" name="personalización" value="1">
+             No<input type="radio" name="personalización" value="2">
+            <br>
+            <br>
+             <i>Seleccione el color para su producto: </i>
+             <input type="color">
+            
+        </fieldset>
+
+
+        <br>
+        <fieldset>
+            <legend><b>Datos del usuario</b></legend>
+            <br>
+            <i>Los campos marcados con * son obligatorios</i>
+            <br>    
+            <br>
+           Nombre:
+            <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre" required>
+            <br><br>
+            <!--Se a usado type:"tel", ya que es mas exacto que text-->
+            Teléfono:
+            <input type="tel" name="telefono" placeholder="Introduzca su teléfono" required>
+            <br><br>
+
+           Correo Electrónico:
+            <input type="email" id="email" name="email" placeholder="Introduzca su correo electronico" required>
+            <br><br>
+        </fieldset>
+        <br>
+        <input type="submit" name="enviar"></input>
+        <input type="reset" name="borrar"></input>
+    </form>
+    </section>
+    </main>
+    <br>
+    <footer>
+
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <a href="https://www.whatsapp.com/?lang=es_LA" target="_self">
+                <img src="Fotos/what.png" height="25px"></a>
+                <h4>Teléfono</h4>
+                <p>+34 544 35 66 34</p>
+            </div>
+            <div class="content-foo">
+                <a href="https://www.instagram.com/" target="_self">
+                <img src="imagenAg/iconoInstagram.png" alt="Enlace a Instagram" width="30" height="30"></a>
+                <h4>Instagram</h4>
+                <p>SystemTech</p>
+            </div>
+            <div class="content-foo">
+                <a href="https://x.com/?lang=es&mx=2" target="_self">
+                <img src="imagenAg/iconoX.png" alt="Enlace a X" width="30" height="30"></a>
+                <h4>X</h4>
+                <p>SystemTech</p>
+            </div>
+            <div class="content-foo">
+                <img src="Fotos/gmail.png">
+                <h4>Gmail</h4>
+                <p>SystemTech@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <a href="pagina1.html" target="_self">
+                    <img src="Fotos/ubi.png"> </a>
+                <h4>Ubicación</h4>
+                <p>C/Andarax Nº5</p>
+               
+            </div>
+            <div class="content-foo">
+                <a href="https://www.youtube.com/?gl=ES&hl=es&app=desktop" target="_self">
+                <img src="imagenAg/iconoYoutube.png" alt="Enlace a Youtube" width="30" height="30"></a>
+                <h4>Youtube</h4>
+                <p>SystemTech </p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>

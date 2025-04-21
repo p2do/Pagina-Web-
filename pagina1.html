@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/pagina1.css">
+    <title>Donde estamos?</title>
+</head>
+<body>
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="CSS/dondeestamos.css">
+    <style>
+        nav{
+
+text-align: left;
+padding: 30px 50px 0 0;
+margin-top: 20px;
+margin-left: 150px;
+margin-right: 20px;
+
+}
+
+nav > a{
+
+color: black;
+font-weight: 300;
+font-weight: bolder;
+text-decoration: none;
+margin-right: 10px;
+
+
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="imagenAg/logoSystemtech.jpg" alt="Logo" width="140" height="90">
+        <h1>SystemTech</h1>
+        <p>¡¡Bienvenido a nuestra tienda!!</p>
+        <em>25 años de confianza nos avalan. Cuando la tecnología falla, nosotros no.</em>
+        <hr>
+        <nav>
+           
+            &emsp; <a href="presentacion.html">Presentación</a>&emsp;
+            <a href="index.html">Inicio</a>&emsp;
+            <a href="pagina1.html">¿Dónde estamos?</a>&emsp;
+            <a href="pagina2.html">¿Quiénes somos?</a>&emsp;
+            <a href="pagina3.html">Tienda</a>&emsp;
+            <a href="pagina4.html">Comparativa de producto</a>&emsp;
+            <a href="pagina5.html">Formulario de contacto</a>&emsp;
+            <a href="pagina6.html">Formulario de Presupuesto</a>&emsp;
+            <a href="pagina7.html">Preguntas Frecuentes</a>&emsp;
+            <a href="pagina8.html">Configurador</a>
+           
+        </nav>
+    </header>
+
+    <main>
+        <br>
+        <br>
+
+        <p class="donde">Donde estamos?</p>
+
+        <p class="parrafo">Nos encontramos en calle Andarax, Carretera de Cádiz, 29006 Málaga. Estamos ubicados en el corazón de Málaga. Nuestro equipo de expertos está listo para brindarte un servicio personalizado y ayudarte a encontrar lo que necesitas de manera rápida y sencilla.</p>
+
+        <p class="parrafo">Ya sea que prefieras visitar nuestra tienda física o comprar desde la comodidad de tu hogar a través de nuestra plataforma online, te garantizamos una experiencia de compra excepcional. ¡No dudes en contactarnos para cualquier consulta o visita!</p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="map"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=calle andarax&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://sprunkiphasez.com/">Sprunki Phase</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>
+
+
+
+
+    </main>
+
+    <footer>
+
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <a href="https://www.whatsapp.com/?lang=es_LA" target="_self">
+                <img src="Fotos/what.png" height="25px"></a>
+                <h4>Teléfono</h4>
+                <p>+34 544 35 66 34</p>
+            </div>
+            <div class="content-foo">
+                <a href="https://www.instagram.com/" target="_self">
+                <img src="imagenAg/iconoInstagram.png" alt="Enlace a Instagram" width="30" height="30"></a>
+                <h4>Instagram</h4>
+                <p>SystemTech</p>
+            </div>
+            <div class="content-foo">
+                <a href="https://x.com/?lang=es&mx=2" target="_self">
+                <img src="imagenAg/iconoX.png" alt="Enlace a X" width="30" height="30"></a>
+                <h4>X</h4>
+                <p>SystemTech</p>
+            </div>
+            <div class="content-foo">
+                <img src="Fotos/gmail.png">
+                <h4>Gmail</h4>
+                <p>SystemTech@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <a href="pagina1.html" target="_self">
+                    <img src="Fotos/ubi.png"> </a>
+                <h4>Ubicación</h4>
+                <p>C/Andarax Nº5</p>
+               
+            </div>
+            <div class="content-foo">
+                <a href="https://www.youtube.com/?gl=ES&hl=es&app=desktop" target="_self">
+                <img src="imagenAg/iconoYoutube.png" alt="Enlace a Youtube" width="30" height="30"></a>
+                <h4>Youtube</h4>
+                <p>SystemTech </p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
+</body>
+</html>

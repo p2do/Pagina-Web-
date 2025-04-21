@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="CSS/pagina5.css">
+</head>
+<body>
+    <header>
+        <img src="imagenAg/logoSystemtech.jpg" alt="Logo" width="140" height="90">
+        <h1>SystemTech</h1>
+        <p>¡¡Bienvenido a nuestra tienda!!</p>
+        <em>25 años de confianza nos avalan. Cuando la tecnología falla, nosotros no.</em>
+        <hr>
+        <nav>
+           
+            &emsp; <a href="presentacion.html">Presentación</a>&emsp;
+            <a href="index.html">Inicio</a>&emsp;
+            <a href="pagina1.html">¿Dónde estamos?</a>&emsp;
+            <a href="pagina2.html">¿Quiénes somos?</a>&emsp;
+            <a href="pagina3.html">Tienda</a>&emsp;
+            <a href="pagina4.html">Comparativa de producto</a>&emsp;
+            <a href="pagina5.html">Formulario de contacto</a>&emsp;
+            <a href="pagina6.html">Formulario de Presupuesto</a>&emsp;
+            <a href="pagina7.html">Preguntas Frecuentes</a>&emsp;
+            <a href="pagina8.html">Configurador</a>
+           
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+        <br>
+        <fieldset>
+            <legend><h2>Formulario de Contacto</h2></legend>
+           
+            <i>Los campos marcados con * son obligatorios</i>
+            <br>    
+            <br>
+        <form action="procesamiento_formulario.ph" method="post">
+           Numero de contacto* : <input type="text" required name="telefono">
+           <br>
+           <br>
+           Nombre* : <input type="text" required name="Nombre">
+           <br>
+           <br>
+           Apellidos* : <input type="text" required name="Apellidos">
+           <br>
+           <br>
+           Correo electronico* : <input type="email" required name="Correo">
+            <br>
+            <br>
+            <select name="opciones">
+                <option value="Almeria">Almería</option>
+                <option value="Cádiz">Cádiz</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Granada">Granada</option>
+                <option value="Huelva">Huelva</option>
+                <option value="Jaén">Jaén</option>
+                <option value="Málaga" selected>Málaga</option>
+                <option value="Sevilla">Sevilla</option>
+            </select>
+            <br>
+            <br>
+            <input type="text" required name="texto" maxlength="300" required placeholder="Escriba motivo de contacto">
+        </fieldset>
+            <br>
+           
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+        <audio loop autoplay src="Musica/MusicaRelajante.mp3">
+            <source  src="Musica/MusicaRelajante.mp3" type="audio/mp3">
+            <source  src="Musica/MusicaRelajante.ogg" type="audio/ogg">
+            <source  src="Musica/MusicaRelajante.wav" type="audio/wav">
+        </audio>
+         </article>
+       </section>
+    </main>
+    <footer>
+
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <a href="https://www.whatsapp.com/?lang=es_LA" target="_self">
+                <img src="Fotos/what.png" height="25px"></a>
+                <h4>Teléfono</h4>
+                <p>+34 544 35 66 34</p>
+            </div>
+            <div class="content-foo">
+                <a href="https://www.instagram.com/" target="_self">
+                <img src="imagenAg/iconoInstagram.png" alt="Enlace a Instagram" width="30" height="30"></a>
+                <h4>Instagram</h4>
+                <p>SystemTech</p>
+            </div>
+            <div class="content-foo">
+                <a href="https://x.com/?lang=es&mx=2" target="_self">
+                <img src="imagenAg/iconoX.png" alt="Enlace a X" width="30" height="30"></a>
+                <h4>X</h4>
+                <p>SystemTech</p>
+            </div>
+            <div class="content-foo">
+                <img src="Fotos/gmail.png">
+                <h4>Gmail</h4>
+                <p>SystemTech@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <a href="pagina1.html" target="_self">
+                    <img src="Fotos/ubi.png"> </a>
+                <h4>Ubicación</h4>
+                <p>C/Andarax Nº5</p>
+               
+            </div>
+            <div class="content-foo">
+                <a href="https://www.youtube.com/?gl=ES&hl=es&app=desktop" target="_self">
+                <img src="imagenAg/iconoYoutube.png" alt="Enlace a Youtube" width="30" height="30"></a>
+                <h4>Youtube</h4>
+                <p>SystemTech </p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
