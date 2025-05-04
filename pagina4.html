@@ -12,24 +12,24 @@
 <body>
     <!--Bienvenida a sección y acceso a otras páginas de la empresa-->
     <header>
-        <img src="imagenAg/logoSystemtech.jpg" alt="Logo" width="140" height="90">
-        <h1>SystemTech</h1>
-        Comparativa de productos
-        <p>¡Bienvenido a nuestra nueva sección! En este apartado podrás resolver todas tus dudas y conocer el producto que mejor se adapte a tí.</p>
-        <hr>
+        <div class="marcaEmpresa">
+            <img src="imagenAg/logoSystemtech.jpg" alt="Logo" width="140" height="90">
+            <h1>SystemTech</h1>
+            <p>Comparativa de productos</p>
+            <p>¡Bienvenido a nuestra nueva sección! En este apartado podrás resolver todas tus dudas y conocer el producto que mejor se adapte a tí.</p>
+            <hr>
+        </div>
         <nav>
-           
-            &emsp; <a href="presentacion.html">Presentación</a>&emsp;
-            <a href="index.html">Inicio</a>&emsp;
-            <a href="pagina1.html">¿Dónde estamos?</a>&emsp;
-            <a href="pagina2.html">¿Quiénes somos?</a>&emsp;
-            <a href="pagina3.html">Tienda</a>&emsp;
-            <a href="pagina4.html">Comparativa de producto</a>&emsp;
-            <a href="pagina5.html">Formulario de contacto</a>&emsp;
-            <a href="pagina6.html">Formulario de Presupuesto</a>&emsp;
-            <a href="pagina7.html">Preguntas Frecuentes</a>&emsp;
+            <a href="presentacion.html">Presentación</a>
+            <a href="index.html">Inicio</a>
+            <a href="pagina1.html">¿Dónde estamos?</a>
+            <a href="pagina2.html">¿Quiénes somos?</a>
+            <a href="pagina3.html">Tienda</a>
+            <a href="pagina4.html">Comparativa de producto</a>
+            <a href="pagina5.html">Formulario de contacto</a>
+            <a href="pagina6.html">Formulario de Presupuesto</a>
+            <a href="pagina7.html">Preguntas Frecuentes</a>
             <a href="pagina8.html">Configurador</a>
-           
         </nav>
     </header>
     <main>
@@ -48,7 +48,7 @@
                             <th><img src="imagenAg/consolaXboxX.png" alt="Imagen Xbox X" width="150" height="140"></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="sinCeldasCombi">
                         <tr>
                             <td>Producto</td>
                             <td><abbr title="Play Station 5 Slim">PS5 Slim</abbr></td>
@@ -105,8 +105,8 @@
                         </tr>
                         <tr>
                             <td>Colores</td>
-                            <td colspan="2"><img src="imagenAg/colorBlanco.png" alt="Color Blanco" width="25" height="15"></td>
-                            <td><img src="imagenAg/colorNegro.png" alt="Color Negro" width="25" height="15"></td>
+                            <td colspan="2" class="colorBlanco">&#9679;</td>
+                            <td class="colorNegro">&#9679;</td>
                         </tr>
                         <tr>
                             <td>Fecha de lanzamiento</td>
@@ -116,9 +116,9 @@
                         </tr>
                         <tr>
                             <td>Valoración clientes</td>
-                            <td>4/5 &#11088; 555 opiniones</td>
-                            <td>5/5 &#11088; 185 opiniones</td>
-                            <td>4.5/5 &#11088; 101 opiniones</td>
+                            <td>4/5 <span class="efecto">&#11088;</span> 555 opiniones</td>
+                            <td>5/5 <span class="efecto">&#11088;</span> 185 opiniones</td>
+                            <td>4.5/5 <span class="efecto">&#11088;</span> 101 opiniones</td>
                         </tr>
                     </tbody>
                 </table>
@@ -135,7 +135,7 @@
                             <th><img src="imagenAg/monitorZ.png" alt="Imagen monitor Z-Edge" width="150" height="130"></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="sinCeldasCombi">
                         <tr>
                             <td>Producto</td>
                             <td>Monitor AOC 27&quot;</td>
@@ -176,7 +176,7 @@
                         </tr>
                         <tr>
                             <td>Colores</td>
-                            <td colspan="2"><img src="imagenAg/colorBlancoNegro.png" alt="Color Blanco/Negro" width="35" height="15"></td>
+                            <td colspan="2"><span class="colorNegro">&#9679;</span><span class="colorBlanco">&#9679;</span></td>
                         </tr>
                         <tr>
                             <td>Fecha de lanzamiento</td>
@@ -185,8 +185,8 @@
                         </tr>
                         <tr>
                             <td>Valoración clientes</td>
-                            <td>4/5 &#11088; 216 opiniones</td>
-                            <td>3.5/5 &#11088; 192 opiniones</td>
+                            <td>4/5 <span class="efecto">&#11088;</span> 216 opiniones</td>
+                            <td>3.5/5 <span class="efecto">&#11088;</span> 192 opiniones</td>
                         </tr>
                     </tbody>
                 </table>
@@ -203,7 +203,7 @@
                             <th><img src="imagenAg/tecladoRazerV4Pro.png" alt="Imagen teclado Razer V4 Pro" width="200" height="120"></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="celdasCombi">
                         <tr>
                             <td>Producto</td>
                             <td>Teclado Razer V4</td>
@@ -238,7 +238,7 @@
                             <td>Inalámbrico</td>
                         </tr>
                         <tr>
-                            <td>Pilas incluidas</td>
+                            <td class="division">Pilas incluidas</td>
                         </tr>
                         <tr>
                             <td>Peso</td>
@@ -247,7 +247,7 @@
                         </tr>
                         <tr>
                             <td>Colores</td>
-                            <td colspan="2"><img src="imagenAg/colorBlancoNegro.png" alt="Color Blanco/Negro" width="35" height="15"></td>
+                            <td colspan="2"><span class="colorNegro">&#9679;</span><span class="colorBlanco">&#9679;</span></td>
                         </tr>
                         <tr>
                             <td>Fecha de lanzamiento</td>
@@ -256,8 +256,8 @@
                         </tr>
                         <tr>
                             <td>Valoración clientes</td>
-                            <td>4/5 &#11088; 216 opiniones</td>
-                            <td>4.5/5 &#11088; 356 opiniones</td>
+                            <td>4/5 <span class="efecto">&#11088;</span> 216 opiniones</td>
+                            <td>4.5/5 <span class="efecto">&#11088;</span> 356 opiniones</td>
                         </tr>
                     </tbody>
                 </table>
@@ -274,7 +274,7 @@
                             <th><img src="imagenAg/ratonG703.png" alt="Imagen ratón G703" width="90" height="90"></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="sinCeldasCombi">
                         <tr>
                             <td>Producto</td>
                             <td>Ratón G203</td>
@@ -324,8 +324,8 @@
                         </tr>
                         <tr>
                             <td>Colores</td>
-                            <td><img src="imagenAg/colorVarios.png" alt="Varios Colores" width="35" height="35"></td>
-                            <td><img src="imagenAg/colorBlancoNegro.png" alt="Color Blanco/Negro" width="35" height="15"></td>
+                            <td><span class="colorNegro">&#9679;</span><span class="colorBlanco">&#9679;</span><span class="colorMorado">&#9679;</span><span class="colorAzul">&#9679;</span></td>
+                            <td><span class="colorNegro">&#9679;</span><span class="colorBlanco">&#9679;</span></td>
                         </tr>
                         <tr>
                             <td>Fecha de lanzamiento</td>
@@ -334,8 +334,8 @@
                         </tr>
                         <tr>
                             <td>Valoración clientes</td>
-                            <td>4/5 &#11088; 600 opiniones</td>
-                            <td>2.5/5 &#11088; 206 opiniones</td>
+                            <td>4/5 <span class="efecto">&#11088;</span> 600 opiniones</td>
+                            <td>2.5/5 <span class="efecto">&#11088;</span> 206 opiniones</td>
                         </tr>
                     </tbody>
                 </table>
@@ -352,7 +352,7 @@
                             <th><img src="imagenAg/cascosRazer.png" alt="Imagen cascos Razer" width="110" height="110"></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="sinCeldasCombi">
                         <tr>
                             <td>Producto</td>
                             <td colspan="3">Cascos Logitech G Pro X</td>
@@ -404,7 +404,7 @@
                             <td colspan="3">5 horas</td>
                         </tr>
                         <tr>
-                            <td colspan="3">2 horas para cargar el 75% de la batería</td>
+                            <td colspan="3" class="division">2 horas para cargar el 75% de la batería</td>
                         </tr>
                         <tr>
                             <td>Compatibilidad</td>
@@ -428,8 +428,8 @@
                         </tr>
                         <tr>
                             <td>Colores</td>
-                            <td colspan="3"><img src="imagenAg/colorNegro.png" alt="Color Negro" width="25" height="15"></td>
-                            <td><img src="imagenAg/colorBlancoNegro.png" alt="Color Blanco/Negro" width="35" height="15"></td>
+                            <td colspan="3"><span class="colorNegro">&#9679;</span></td>
+                            <td><span class="colorNegro">&#9679;</span><span class="colorBlanco">&#9679;</span></td>
                         </tr>
                         <tr>
                             <td>Fecha de lanzamiento</td>
@@ -438,8 +438,8 @@
                         </tr>
                         <tr>
                             <td>Valoración clientes</td>
-                            <td colspan="3">4/5 &#11088; 600 opiniones</td>
-                            <td>2.5/5 &#11088; 206 opiniones</td>
+                            <td colspan="3">4/5 <span class="efecto">&#11088;</span> 600 opiniones</td>
+                            <td>2.5/5 <span class="efecto">&#11088;</span> 206 opiniones</td>
                         </tr>
                     </tbody>
                 </table>
@@ -456,7 +456,7 @@
                             <th colspan="4"><img src="imagenAg/iphone16Pro.png" alt="Imagen iphone 16 Pro" width="90" height="100"></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="sinCeldasCombi">
                         <tr>
                             <td colspan="2">Producto</td>
                             <td colspan="3">Iphone 16</td>
@@ -502,7 +502,7 @@
                         </tr>
                         <tr>
                             <td rowspan="2">Cámara</td>
-                            <td>Trasera</td>
+                            <td class="producto">Trasera</td>
                             <td colspan="3">48 MP principal, 12 MP ultra gran angular</td>
                             <td colspan="4">52 MP principal, 48 MP ultra gran angular, 12 MP teleobjetivo 5X</td>
                         </tr>
@@ -526,7 +526,7 @@
                             <td colspan="4">2 horas</td>
                         </tr>
                         <tr>
-                            <td colspan="3">2 horas para cargar el 75% de la batería</td>
+                            <td colspan="3" class="division">2 horas para cargar el 75% de la batería</td>
                             <td colspan="4">1 horas para cargar el 75% de la batería</td>
                         </tr>
                         <tr>
@@ -544,8 +544,8 @@
                         </tr>
                         <tr>
                             <td colspan="2">Colores</td>
-                            <td colspan="3"><img src="imagenAg/colorVarios.png" alt="Varios Colores" width="35" height="35"></td>
-                            <td colspan="4"><img src="imagenAg/colorBlancoNegro.png" alt="Color Blanco/Negro" width="35" height="15"></td>
+                            <td colspan="3"><span class="colorNegro">&#9679;</span><span class="colorBlanco">&#9679;</span><span class="colorMorado">&#9679;</span><span class="colorAzul">&#9679;</span></td>
+                            <td colspan="4"><span class="colorNegro">&#9679;</span><span class="colorBlanco">&#9679;</span></td>
                         </tr>
                         <tr>
                             <td colspan="2">Fecha de lanzamiento</td>
@@ -557,64 +557,61 @@
                         </tr>
                         <tr>
                             <td colspan="2">Valoración clientes</td>
-                            <td colspan="3">5/5 &#11088; 310 opiniones</td>
-                            <td colspan="4">4/5 &#11088; 266 opiniones</td>
+                            <td colspan="3">5/5 <span class="efecto">&#11088;</span> 310 opiniones</td>
+                            <td colspan="4">4/5 <span class="efecto">&#11088;</span> 266 opiniones</td>
                         </tr>
                     </tbody>
                 </table>
             </article>
         </section>
         <!--Formulario para recibir notificación>-->
-        <form action="" method="post">
-            <fieldset>
-                <legend><b>Notificaciones</b></legend>
-                <input type="checkbox" name="notificar" value="yes">Deseo recibir una notificación cada vez que se añada una comparación de productos. <br>
-                <input type="submit" value="Enviar">
-            </fieldset>
-        </form>
+        <section>
+            <form action="" method="post">
+                <fieldset>
+                    <legend><b>Notificaciones</b></legend>
+                    <input type="checkbox" name="notificar" value="yes"><span id="mensaje">Deseo recibir una notificación cada vez que se añada una comparación de productos.</span><br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </section>
     </main>
     <!--Pie de página-->
     <footer>
-
-        <div class="contenedor-footer">
-            <div class="content-foo">
-                <a href="https://www.whatsapp.com/?lang=es_LA" target="_self">
-                <img src="Fotos/what.png" height="25px"></a>
-                <h4>Teléfono</h4>
-                <p>+34 544 35 66 34</p>
-            </div>
-            <div class="content-foo">
-                <a href="https://www.instagram.com/" target="_self">
-                <img src="imagenAg/iconoInstagram.png" alt="Enlace a Instagram" width="30" height="30"></a>
-                <h4>Instagram</h4>
-                <p>SystemTech</p>
-            </div>
-            <div class="content-foo">
-                <a href="https://x.com/?lang=es&mx=2" target="_self">
-                <img src="imagenAg/iconoX.png" alt="Enlace a X" width="30" height="30"></a>
-                <h4>X</h4>
-                <p>SystemTech</p>
-            </div>
-            <div class="content-foo">
-                <img src="Fotos/gmail.png">
-                <h4>Gmail</h4>
-                <p>SystemTech@gmail.com</p>
-            </div>
-            <div class="content-foo">
-                <a href="pagina1.html" target="_self">
-                    <img src="Fotos/ubi.png"> </a>
-                <h4>Ubicación</h4>
-                <p>C/Andarax Nº5</p>
-               
-            </div>
-            <div class="content-foo">
-                <a href="https://www.youtube.com/?gl=ES&hl=es&app=desktop" target="_self">
-                <img src="imagenAg/iconoYoutube.png" alt="Enlace a Youtube" width="30" height="30"></a>
-                <h4>Youtube</h4>
-                <p>SystemTech </p>
-            </div>
+        <div class="medios">
+            <a href="https://www.whatsapp.com/?lang=es_LA" target="_self">
+            <img src="Fotos/what.png" height="25px"></a>
+            <h4>Teléfono</h4>
+            <p>+34 544 35 66 34</p>
         </div>
-
+        <div class="medios">
+            <a href="https://www.instagram.com/" target="_self">
+            <img src="imagenAg/iconoInstagram.png" alt="Enlace a Instagram" width="30" height="30"></a>
+            <h4>Instagram</h4>
+            <p>SystemTech</p>
+        </div>
+        <div class="medios">
+            <a href="https://x.com/?lang=es&mx=2" target="_self">
+            <img src="imagenAg/iconoX.png" alt="Enlace a X" width="30" height="30"></a>
+            <h4>X</h4>
+            <p>SystemTech</p>
+        </div>
+        <div class="medios">
+            <img src="Fotos/gmail.png">
+            <h4>Gmail</h4>
+            <p>SystemTech@gmail.com</p>
+        </div>
+        <div class="medios">
+            <a href="pagina1.html" target="_self">
+            <img src="Fotos/ubi.png"> </a>
+            <h4>Ubicación</h4>
+            <p>C/Andarax Nº5</p>
+        </div>
+        <div class="medios">
+            <a href="https://www.youtube.com/?gl=ES&hl=es&app=desktop" target="_self">
+            <img src="imagenAg/iconoYoutube.png" alt="Enlace a Youtube" width="30" height="30"></a>
+            <h4>Youtube</h4>
+            <p>SystemTech</p>
+        </div>
     </footer>
 </body>
 </html>

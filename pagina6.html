@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-        <img src="imagenAg/logoSystemtech.jpg" alt="Logo" width="140" height="90">
-        <h1>SystemTech</h1>
-        <p>¡¡Bienvenido a nuestra tienda!!</p>
+        <div id="fotoEmpresa"><img src="imagenAg/imagen_2025-04-28_005715988-removebg-preview.png" alt="Logo" width="140" height="90" > </div>
+        <h1 id="titulo">SystemTech</h1>
+        <p id="eslogan">¡¡Bienvenido a nuestra tienda!!</p>
         <em>25 años de confianza nos avalan. Cuando la tecnología falla, nosotros no.</em>
-        <hr>
+        
         <nav>
            
             &emsp; <a href="presentacion.html">Presentación</a>&emsp;
@@ -31,13 +31,13 @@
     <main>
      <section>
             <h1>Formulario para Presupuesto</h1>
-      <form action="presupuesto.php" method="get">
+      <form action="presupuesto.php" method="post">
         <fieldset>
             <legend><b>Articulos</b></legend>
             <br>
 
            Consola:
-            <select name="consola">
+            <select name="consola" id="consola">
                 <option value="">Seleccione una consola</option>
                 <option value="PlayStation_5_Pro">PlayStation 5 Pro</option>
                 <option value="PlayStation_5_Slim">PlayStation 5 Slim</option>
@@ -46,7 +46,7 @@
             <br><br>
 
             Monitor:
-            <select  name="monitor">
+            <select  name="monitor" id="monitor">
                 <option value="">Seleccione un monitor</option>
                 <option value="AOC_Gaming">AOC Gaming 27&quot; 180Hz</option>
                 <option value="A_Z-Edge_Gaming">Z Z-Edge Gaming 27&quot; 300Hz</option>
@@ -54,7 +54,7 @@
             <br><br>
 
             Teclado:
-            <select name="teclado">
+            <select name="teclado" id="teclado">
                 <option value="">Seleccione un teclado</option>
                 <option value="Razer_V4_X">Razer BlackWidow V4 X</option>
                 <option value="Razer_v4_Pro">Razer BlackWidow V4 Pro</option>
@@ -62,7 +62,7 @@
             <br><br>
 
             Ratón:
-            <select name="ratón">
+            <select name="ratón" id="raton">
                 <option value="">Seleccione un ratón</option>
                 <option value="Logitech_G203_LIGHTSYNC">Logitech G203 LIGHTSYNC</option>
                 <option value="Logitech_G703_LIGHTSPEED">Logitech G703 LIGHTSPEED</option>
@@ -70,7 +70,7 @@
             <br><br>
 
             Auricular:
-            <select name="auricular">
+            <select name="auricular" id="auricular">
                 <option value="">Seleccione un auricular</option>
                 <option value="Razer_Kraken_V3">Razer Kraken V3</option>
                 <option value="Logitech_G_Pro_X">Logitech G Pro X</option>
@@ -78,7 +78,7 @@
             <br><br>
 
             Teléfono:
-            <select name="teléfono">
+            <select name="teléfono" id="telefono">
                 <option value="">Seleccione un teléfono</option>
                 <option value="8gb">Iphone 16 Pro Max</option>
                 <option value="16gb">Iphone 16 Pro</option>
@@ -120,15 +120,15 @@
             <i>Los campos marcados con * son obligatorios</i>
             <br>    
             <br>
-           Nombre:
+           Nombre*:
             <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre" required>
             <br><br>
             <!--Se a usado type:"tel", ya que es mas exacto que text-->
-            Teléfono:
+            Teléfono*:
             <input type="tel" name="telefono" placeholder="Introduzca su teléfono" required>
             <br><br>
 
-           Correo Electrónico:
+           Correo Electrónico*:
             <input type="email" id="email" name="email" placeholder="Introduzca su correo electronico" required>
             <br><br>
         </fieldset>

@@ -1,76 +1,170 @@
-nav{
-    
-    text-align: left;
-    padding: 30px 50px 0 0;
-    margin-top: 20px;
-    margin-left: 150px;
-    margin-right: 20px;
-    
-    }
-    
-    nav > a{
-    
+body {
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(241, 246, 255);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-top: 48px;
+    border: 2px solid black;
+    padding: 20px 0;
+    background: linear-gradient(#c6d7ee, #7480eb);
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(132, 149, 243, 1);
+    transition: background-color 2s;
+}
+
+nav > a {
     color: black;
-    font-weight: 300;
-    font-weight: bolder;
+    font-size: 16px;
+    font-weight: bold;
     text-decoration: none;
-    margin-right: 10px;
-    
-    
-    }
-    footer{
-    
-    background: #749abd;
+    margin: 0 20px;
+    cursor: pointer;
+    transition-duration: 3s, 5s;
+    transition-property: background-color, color;
+}
+
+nav > a:hover {
+    color: #1d19f1;
+    text-decoration: underline;
+    background-color: #fae5e5;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+footer {
+    background-color: rgba(13, 87, 245, 0.3);
     padding: 60px 0 30px 0;
     margin: auto;
-    overflow: hidden;
     margin-top: 40px;
-    
-    }
-    
-    .contenedor-footer{
-    
+}
+
+.contenedor-footer {
     display: flex;
     width: 90%;
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
-    
-    }
-    
-    .content-foo{
-    
+    border-bottom: 2px solid #000000;
+    flex-wrap: wrap;
+}
+
+.content-foo {
     text-align: center;
-    
-    }
-    
-    .content-foo img{
-    
+}
+
+.content-foo img {
     position: relative;
-    top: 50px; /* ajustar los valores para mover la imagen */
+    top: 50px;
     left: -40px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin: -10%;
-    border:2px solid #fff;
+    margin: -10px;
+    border: 2px solid #000000;
     display: block;
-    }
-    
-    .content-foo h4{
-    
-    color: rgb(0, 0, 0);
+}
+
+.content-foo h4 {
+    color: black;
     border-bottom: 3px solid green;
     padding-bottom: 5px;
     margin-bottom: 10px;
-    
-    }
-    
-    .content-foo p{
-    
-    color: rgb(0, 0, 0);
+}
+
+.content-foo p {
+    color: black;
     padding-bottom: 5px;
     margin-bottom: 10px;
-    
-    }
+}
+
+section fieldset {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-bottom: 100px;
+    border: 10px solid black;
+    margin: 32px;
+    background-attachment: fixed;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664640458873-cc22a1e9d814?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+section fieldset legend {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 1px 20px 20px 1px;
+    border: 5px solid;
+    background-attachment: fixed;
+    background-image: url(https://images.unsplash.com/photo-1735822081256-bc72ef6cbe59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    transition: letter-spacing 3s;
+}
+
+section fieldset legend:hover {
+    letter-spacing: 10px;
+}
+
+
+
+#titulo{
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+    background-color:rgba(4, 7, 184, 0.1); 
+    letter-spacing: normal;
+    margin-left:100px ;
+    margin-right:100px ;
+    filter: blur(0.5px);
+    transition:letter-spacing 5s, filter 5s, background-color 5s;
+
+}
+
+#titulo:hover {
+    letter-spacing: 15px;
+    filter: blur(0);
+    background-color: rgba(4, 7, 184, 0.4);
+}
+
+#fotoEmpresa{
+    text-align: center;
+    margin-top: 2%;
+    filter: grayscale(0.6);
+    transition-property: filter;
+    transition-duration: 10s;
+  
+}
+
+#fotoEmpresa:hover{
+    filter: grayscale(0);
+    filter: saturate(1);
+ 
+}
+
+em {
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+
+#eslogan {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+section h1 {
+    font-size: 64px;
+    background-image: url('https://images.unsplash.com/photo-1633259584604-afdc243122ea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 40px;
+}
+

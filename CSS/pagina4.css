@@ -1,76 +1,281 @@
-nav{
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    text-align: left;
-    padding: 30px 50px 0 0;
-    margin-top: 20px;
-    margin-left: 150px;
-    margin-right: 20px;
-    
-    }
-    
-    nav > a{
-    
-    color: black;
-    font-weight: 300;
-    font-weight: bolder;
-    text-decoration: none;
-    margin-right: 10px;
-    
-    
-    }
-    footer{
-    
-    background: #749abd;
-    padding: 60px 0 30px 0;
-    margin: auto;
-    overflow: hidden;
-    margin-top: 40px;
-    
-    }
-    
-    .contenedor-footer{
-    
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    margin: auto;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
-    
-    }
-    
-    .content-foo{
-    
+body {
     text-align: center;
+    background-color: rgba(243, 238, 238, 0.2);
+}
+
+/*Logo, marca empresa*/
+h1 {
+    background: radial-gradient(closest-corner at 50% 50%, rgb(116, 154, 189), white);
+    text-shadow: 3px 3px 4px rgb(68, 65, 65);
+}
+
+@font-face {
+    font-family: miFuente;
+    src: url(/Equipo_2_1CDAW/CSS/CalSans-Regular.ttf);
+}
+
+h1+p,h1+p+p {
+    font-family: 'miFuente';
+    font-weight: bold;
+    font-size: 17px;
+}
+
+h2 {
+    letter-spacing: 5px;
+    font-variant: small-caps;
+}
+
+.marcaEmpresa {
+    margin-top: 125px;
+}
+
+/*enlaces*/
+nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: radial-gradient(ellipse,rgb(236, 222, 225), rgba(116, 154, 189));
+    border: 5px double black;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: fixed;
+    top: 0;
+    line-height: 25px;
+}
+
+nav a {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color:blue;
+}
+
+a:visited {         
+    color: rgb(100, 149, 99);
+}
+
+a:hover,a:focus {
+    background-color: rgb(248, 192, 201);
+}
+
+a:active {
+    color: darkgray;
+}
+
+/*secciones*/
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/*imagen*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header img:hover {
+    transform: translate(0px, 20px);
+    transition: 2s;
+}
+
+section img:hover {
+    transform: scale(1.5,1.5);
+    transition: 4s;
+}
+
+footer img:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.efecto:hover {
+    display: inline-block;
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+/*tablas*/
+table {
+    margin-left: 10%;
+    margin-right: 10%;
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 5px;
+    empty-cells: hide;
+    border: 2px solid rgb(116, 154, 189);
+    box-shadow: 5px 10px 5px 2px rgb(78, 114, 147); 
+    background-image: url('/Equipo_2_1CDAW/imagenAg/fondo.jpg');
+    background-size: 100px, 75px;
+    background-repeat: round;
+    background-attachment: fixed;
+}
+
+th:nth-child(2),th:nth-child(3),th:last-child {
+    background-color: white;
+}
+
+caption {
+    caption-side: bottom;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+td,th {
+    border: 1.5px solid rgb(116, 154, 189);
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+td:first-child,.producto {
+    background: linear-gradient(to bottom right, rgb(116, 154, 189), white);
+    font-weight: bold;
+}
+
+tbody .division {
+    background: none;
+    font-weight: normal;
+}
+
+.sinCeldasCombi tr:nth-child(odd) {
+    background: linear-gradient(to bottom right, rgb(205, 205, 205), white);
+}
+
+.sinCeldasCombi tr:nth-child(even) {
+    background: linear-gradient(to bottom right, rgb(248, 192, 201), white);
+}
+
+.celdasCombi tr {
+    background: linear-gradient(to bottom right, rgb(248, 192, 201), white);
+}
+
+.celdasCombi tr:nth-child(1),.celdasCombi tr:nth-child(3),.celdasCombi tr:nth-child(5),
+.celdasCombi tr:nth-child(7),.celdasCombi tr:nth-child(8),.celdasCombi tr:nth-child(10),.celdasCombi tr:nth-child(12){
+    background: linear-gradient(to bottom right, rgb(205, 205, 205), white);
+}
+
+td:hover {
+    background-color: rgb(175, 226, 175);
+}
+
+td a {
+    text-decoration: none;
+}
+
+/*formulario*/
+fieldset {
+    border: 6px solid rgb(116, 154, 189);
+}
+
+legend {
+    font-variant: small-caps;
+}
+
+input[type='submit'] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 5px solid rgb(116, 154, 189);
+    background-color: rgb(248, 192, 201);
+    color: rgb(1, 54, 54);
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+input[type='submit']:hover{
+    background-color: rgb(224, 150, 97);
+}
+
+input[type='submit']:active{
+    background-color: rgb(126, 53, 0);
+    color: white;
+}
+
+input[type='checkbox']{
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+}
+
+#mensaje::after {
+    content: "- Acepta para no perder nada.";
+}
+
+/*Colores*/
+.colorBlanco {
+    color: white;
+    font-size: 50px;
+}
+
+.colorNegro {
+    color: black;
+    font-size: 50px;
+}
+
+.colorAzul {
+    color: blue;
+    font-size: 50px;
+}
+
+.colorMorado {
+    color: purple;
+    font-size: 50px;
+}
+
+/*footer*/
+footer {
+    background: radial-gradient(ellipse,rgb(236, 222, 225), rgba(116, 154, 189));
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
     
-    }
+.medios {
+    display: inline-block;
+    height: 120px;
+    width: 200px;
+    margin: 1%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}  
     
-    .content-foo img{
+.medios img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
     
-    position: relative;
-    top: 50px; /* ajustar los valores para mover la imagen */
-    left: -40px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin: -10%;
-    border:2px solid #fff;
-    display: block;
-    }
-    
-    .content-foo h4{
-    
-    color: rgb(0, 0, 0);
+.medios h4 {
+    text-transform: uppercase;
+    color: black;
     border-bottom: 3px solid green;
+    padding-bottom: 20px;
+}
+    
+.medios p {
+    color: black;
     padding-bottom: 5px;
-    margin-bottom: 10px;
-    
-    }
-    
-    .content-foo p{
-    
-    color: rgb(0, 0, 0);
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    
-    }
+}

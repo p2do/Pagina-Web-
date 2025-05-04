@@ -1,31 +1,67 @@
-nav{
+body{
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1741017269648-44a2497aba20?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    }
 
-    text-align: left;
-    padding: 30px 50px 0 0;
-    margin-top: 20px;
-    margin-left: 150px;
-    margin-right: 20px;
+.cuerpo{
+    background-color:blue ;
+    opacity: 0.6;
+}
+nav{
+    margin-top: 50px;
+    box-sizing: border-box;
+    border:2px solid rgb(255, 255, 255);
+    padding: 20px 0px 20px 0px;
+    background: linear-gradient(#c6d7ee, #7480eb);
+    text-align: center;
+    box-shadow: 0px 10px 30px rgb(132, 149, 243);
+    transition: background-color 2s;
+    margin-bottom: 10%;
     
     }
     
     nav > a{
     
-    color: black;
-    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: auto;
     font-weight: bolder;
     text-decoration: none;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition-duration: 3s,5s;
+    transition-property: background-color, color;
     
     
+
+    }
+
+    nav > a:hover{
+        color: #1d19f1;
+        text-decoration:underline ;
+        background-color: #fae5e5;
+        padding-top: 20px;
+        padding-bottom: 21px;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+       
+       
+      
+
     }
     footer{
     
-    background: #749abd;
+    background-color: rgba(13, 87, 245, 0.3);    
     padding: 60px 0 30px 0;
     margin: auto;
-    overflow: hidden;
     margin-top: 40px;
-    
+
     }
     
     .contenedor-footer{
@@ -35,12 +71,14 @@ nav{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid #000000;
+    
     
     }
+
     
     .content-foo{
-    
+
     text-align: center;
     
     }
@@ -48,13 +86,13 @@ nav{
     .content-foo img{
     
     position: relative;
-    top: 50px; /* ajustar los valores para mover la imagen */
+    top: 50px; 
     left: -40px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin: -10%;
-    border:2px solid #fff;
+    margin: -10px;
+    border:2px solid #000000;
     display: block;
     }
     
@@ -73,4 +111,62 @@ nav{
     padding-bottom: 5px;
     margin-bottom: 10px;
     
+    }
+
+    
+
+    #titulo{
+        color: white;
+        box-sizing: border-box;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5em;
+        background-color:rgba(156, 156, 156, 0.0); 
+        letter-spacing: normal;
+        margin-left:100px ;
+        margin-right:100px ;
+        filter: blur(0.5px);
+        transition:letter-spacing 5s, filter 5s, background-color 5s;
+
+    }
+
+    #titulo:hover{
+        
+        letter-spacing: 15px;
+        filter: blur(0px);
+        background-color:rgba(136, 136, 136, 0.4);
+    }   
+
+    #fotoEmpresa{
+        text-align: center;
+        margin-top: 2%;
+        filter: grayscale(0.6);
+        transition-property: filter;
+        transition-duration: 10s;
+      
+    }
+
+    #fotoEmpresa:hover{
+        filter: grayscale(0);
+        filter: saturate(1);
+     
+    }
+
+
+    
+
+    em{
+        color: white;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 0.8em;
+        
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    #eslogan{
+        color: white;
+        font-weight: bolder;
+        font-size: 1.5em;
+
     }
